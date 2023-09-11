@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7 CSS</title>
+    <style>
+        body {
+            background-color: rgb(164, 75, 115);
+            
+        }
+
+        form {
+            background-color: rgb(134, 24, 73);
+            width: fit-content;
+            margin-left: 30%;
+            margin-top: 80px;
+            padding: 10px;
+        }
+        td{
+            color: white;
+            padding: 5px;
+        }
+        label {
+            font-size: large;
+            padding: 20px;
+            text-align: center;
+        }
+        .inp, textarea{
+            width: 90%;
+            font-size: large;
+            padding: 5px;
+        }
+        button{
+            width: 200px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label class="label" for="name">Name :</label></td>
+                <td><input class="inp" type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="email">Email: </label></td>
+                <td><input class="inp" type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="pw">Password:</label></td>
+                <td><input class="inp" type="password" name="pw"></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="phno">Phone Number:</label></td>
+                <td><input class="inp" type="tel" name="phno"></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="gen">Gender:</label></td>
+                <td>Male<input type="radio" name="gen">
+                    Female <input type="radio" name="gen">
+                    Optimus Prime<input type="radio" name="gen"></td>
+            </tr>
+
+            <tr>
+                <td><label for="lan">Language:</label></td>
+                <td><select name="lan" id="lan">
+                        <option value="Select Language">Select Language</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="zip">Zip Code</label></td>
+                <td><input class="inp" type="number" name="zip"></td>
+            </tr>
+
+            <tr>
+                <td><label class="label" for="add">Address:</label></td>
+                <td><textarea name="add" id="add"></textarea></td>
+            </tr>
+        </table>
+        <center><button type="submit">Register</button></center>
+
+    </form>
+</body>
+
+</html>

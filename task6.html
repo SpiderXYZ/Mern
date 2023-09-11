@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 CSS</title>
+    <style>
+        .table1{
+            width: 100%;
+            background-color: aqua;
+            padding: 3px;
+        }
+        .td,.th{
+            border: solid black;
+            border-radius: 5px;
+            width: 300px;
+        }
+        .table2{
+            margin: 0 auto;
+            margin-top: 100px;
+            height: 200px;
+            border-spacing: 15px;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <th class="td">First Name</th>
+            <th class="td">Last Name</th>
+            <th class="td">Age</th>
+        </tr>
+
+        <tr >
+            <td class="td">Jill</td>
+            <td class="td">Smith</td>
+            <td class="td">50</td>
+        </tr>
+
+        <tr >
+            <td class="td">Eve</td>
+            <td class="td">Jackson</td>
+            <td class="td">94</td>
+        </tr>
+
+        <tr >
+            <td class="td">John</td>
+            <td class="td">Doe</td>
+            <td class="td">80</td>
+        </tr>
+    </table>
+
+    <table class="table2">
+        <tr>
+            <td style="border: solid green; border-radius: 5px;"></td>
+            <td style="border: solid green; border-radius: 8px;"></td>
+            <td style="border: solid green; border-radius: 12px;"></td>
+        </tr>
+
+        <tr>
+            <td style="border: solid green; border-radius: 10px;"></td>
+            <td style="border: solid green; border-radius: 3px;"></td>
+            <td style="border: solid green; border-radius: 15px;"></td>
+        </tr>
+
+        <tr>
+            <td style="border: solid green; border-radius: 45%;"></td>
+            <td style="border: solid green; border-radius: 0px;"></td>
+            <td style="border: solid green; border-top-right-radius: 25px; border-bottom-left-radius: 25px;"></td>
+        </tr>
+    </table>
+</body>
+</html>

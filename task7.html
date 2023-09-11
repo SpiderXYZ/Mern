@@ -1,0 +1,99 @@
+<<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 2 CSS</title>
+        <style>
+            .c1 {
+                width: 175px;
+                margin-left: 3px;
+                list-style-type: none;
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-right: 5px;
+                border: 1px solid black;
+            }
+
+            .c3,
+            #id1 {
+                font-size: 20px;
+                display: block;
+                text-decoration: none;
+                padding: 10px;
+                background-color: skyblue;
+                color: blue;
+
+            }
+
+            .c3:hover {
+                background-color: orange;
+                color: white;
+            }
+
+            #id1 {
+                background-color: orange;
+                color: white;
+            }
+
+            .c2 {
+                margin-left: 3px;
+                list-style-type: none;
+                padding: 0;
+                background-color: lightgrey;
+                overflow: auto;
+            }
+
+            .c4,
+            #id2 {
+                font-size: 20px;
+                text-decoration: none;
+                color: blue;
+                background-color: lightgrey;
+                display: block;
+                padding: 15px;
+
+            }
+
+            .c4:hover {
+                background-color: gray;
+                color: white;
+            }
+
+            #id2 {
+                background-color: gray;
+                color: white;
+            }
+
+            .c5 {
+                float: left;
+                border-right: 1px solid blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Horizontal Navigation Bar</h2>
+        <ul class="c2">
+            <li class="c5"><a href="#" id="id2">Home</a></li>
+            <li class="c5"><a href="#" class="c4">Java</a></li>
+            <li class="c5"><a href="#" class="c4">HTML</a></li>
+            <li class="c5"><a href="#" class="c4">CSS</a></li>
+            <li class="c5"><a href="#" class="c4">Bootstrap</a></li>
+        </ul>
+        <br>
+
+        <h2>Vertical Navigation Bar</h2>
+
+        <ul class="c1">
+            <li><a href="#" id="id1">Home</a></li>
+            <li><a href="#" class="c3">Java</a></li>
+            <li><a href="#" class="c3">CSS</a></li>
+            <li><a href="#" class="c3">HTML</a></li>
+            <li><a href="#" class="c3">Bootstrap</a></li>
+        </ul>
+
+    </body>
+
+    </html>
